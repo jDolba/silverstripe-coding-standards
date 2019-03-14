@@ -38,6 +38,13 @@ to fix your Standards violations you can run
 composer standard-cs-fix
 ```
 
+### .editorconfig
+
+you can use prepared `.editorconfig` file (see https://editorconfig.org/)
+
+```bash
+cp vendor/silverstripe/coding-standards/skeletons/.editorconfig .editorconfig 
+```
 
 ## Change log
 
