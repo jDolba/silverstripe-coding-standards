@@ -15,11 +15,12 @@ $ composer require --dev silverstripe/coding-standards dev-master
 ### Direct usage with composer scripts:
 
 Add scripts to your composer.json file
- 
+(update paths in arguments to your folders) 
 ```json
 
     "scripts": {
         "silverstripe-standards": [
+            "parallel-lint app/src app/tests"
             "@standard-cs"
         ],
         "standard-cs": "phpcs app/src app/tests --standard=vendor/silverstripe/coding-standards/definitions/phpcs-simple.xml --extensions=php --encoding=utf-8",
