@@ -38,6 +38,11 @@ to fix your Standards violations you can run
 composer standard-cs-fix
 ```
 
+you can also extend rules by adding `phpcs.xml` file directly to you project root:
+```bash
+cp vendor/silverstripe/coding-standards/skeletons/phpcs.xml phpcs.xml
+```
+
 ### .editorconfig
 
 you can use prepared `.editorconfig` file (see https://editorconfig.org/)
