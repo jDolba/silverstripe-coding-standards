@@ -22,8 +22,8 @@ Add scripts to your composer.json file
         "silverstripe-standards": [
             "@standard-cs"
         ],
-        "standard-cs": "phpcs app/src app/tests --standard=vendor/silverstripe/coding-standards/definitions/phpcs.xml --extensions=php --encoding=utf-8",
-        "standard-cs-fix": "phpcbf app/src app/tests --standard=vendor/silverstripe/coding-standards/definitions/phpcs.xml --extensions=php --encoding=utf-8"
+        "standard-cs": "phpcs app/src app/tests --standard=vendor/silverstripe/coding-standards/definitions/phpcs-simple.xml --extensions=php --encoding=utf-8",
+        "standard-cs-fix": "phpcbf app/src app/tests --standard=vendor/silverstripe/coding-standards/definitions/phpcs-simple.xml --extensions=php --encoding=utf-8"
     },
 
 ```
