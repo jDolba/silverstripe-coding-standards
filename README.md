@@ -20,11 +20,13 @@ Add scripts to your composer.json file
 
     "scripts": {
         "silverstripe-standards": [
-            "parallel-lint app/src app/tests"
-            "@standard-cs"
+            "@php-lint",
+            "@phpcs"
         ],
-        "standard-cs": "phpcs app/src app/tests --standard=vendor/silverstripe/coding-standards/definitions/phpcs-simple.xml --extensions=php --encoding=utf-8",
-        "standard-cs-fix": "phpcbf app/src app/tests --standard=vendor/silverstripe/coding-standards/definitions/phpcs-simple.xml --extensions=php --encoding=utf-8"
+        "php-lint": "parallel-lint app/src app/tests",
+        "phpcs": "phpcs app/src app/tests --standard=vendor/silverstripe/coding-standards/definitions/php/phpcs-simple.xml --extensions=php --encoding=utf-8",
+        "phpcbf": "phpcbf app/src app/tests --standard=vendor/silverstripe/coding-standards/definitions/php/phpcs-simple.xml --extensions=php --encoding=utf-8",
+        "phpcs-fix": "@phpcbf"
     },
 
 ```
@@ -36,7 +38,9 @@ composer silverstripe-standards
 
 to fix your Standards violations you can run
 ```bash
-composer standard-cs-fix
+composer phpcbf
+# or
+composer phpcs-fix
 ```
 
 you can also extend rules by adding `phpcs.xml` file directly to you project root:

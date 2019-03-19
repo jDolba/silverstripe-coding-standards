@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <ruleset name="project-coding-standards">
-    <description>Coding standards for {replace} project</description>
+    <description>Coding standards for SilverStripe based project</description>
 
-    <rule ref="vendor/silverstripe/coding-standards/definitions/phpcs-strict.xml" />
+    <rule ref="vendor/silverstripe/coding-standards/definitions/php/phpcs-simple.xml" />
 </ruleset>
