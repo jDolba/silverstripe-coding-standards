@@ -2,5 +2,5 @@
 <ruleset name="project-coding-standards">
     <description>Coding standards for SilverStripe based project</description>
 
-    <rule ref="vendor/silverstripe/coding-standards/definitions/php/phpcs-ss4.xml" />
+    <rule ref="vendor/jdolba/silverstripe-coding-standards/definitions/php/phpcs-ss4.xml" />
 </ruleset>

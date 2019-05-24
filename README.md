@@ -7,7 +7,7 @@ Set of definition and coding standards rules for your SilverStripe project
 Via Composer
 
 ```bash
-composer require --dev silverstripe/coding-standards ^0.1
+composer require --dev jdolba/silverstripe-coding-standards ^0.1
 ```
 
 ## Usage
@@ -22,8 +22,8 @@ composer require --dev silverstripe/coding-standards ^0.1
             "@phpcs"
         ],
         "php-lint": "parallel-lint app/src app/tests",
-        "phpcs": "phpcs app/src app/tests --standard=vendor/silverstripe/coding-standards/definitions/php/phpcs-ss4.xml --extensions=php --encoding=utf-8",
-        "phpcbf": "phpcbf app/src app/tests --standard=vendor/silverstripe/coding-standards/definitions/php/phpcs-ss4.xml --extensions=php --encoding=utf-8",
+        "phpcs": "phpcs app/src app/tests --standard=vendor/jdolba/silverstripe-coding-standards/definitions/php/phpcs-ss4.xml --extensions=php --encoding=utf-8",
+        "phpcbf": "phpcbf app/src app/tests --standard=vendor/jdolba/silverstripe-coding-standards/definitions/php/phpcs-ss4.xml --extensions=php --encoding=utf-8",
         "phpcs-fix": "@phpcbf"
     },
 ```
@@ -45,7 +45,7 @@ composer phpcbf
 
 you can also customize rules by adding `phpcs.xml` file directly to you project root:
 ```bash
-cp vendor/silverstripe/coding-standards/skeletons/phpcs.xml phpcs.xml
+cp vendor/jdolba/silverstripe-coding-standards/skeletons/phpcs.xml phpcs.xml
 ```
 don't forgot to change paths in composer scripts (`--standard=phpcs.xml`)
 
@@ -54,7 +54,7 @@ don't forgot to change paths in composer scripts (`--standard=phpcs.xml`)
 you can use prepared `.editorconfig` file (see https://editorconfig.org/)
 
 ```bash
-cp vendor/silverstripe/coding-standards/skeletons/.editorconfig .editorconfig 
+cp vendor/jdolba/silverstripe-coding-standards/skeletons/.editorconfig .editorconfig 
 ```
 
 ## Credits
