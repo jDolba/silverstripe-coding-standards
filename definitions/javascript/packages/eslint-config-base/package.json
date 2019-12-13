@@ -1,5 +1,5 @@
 {
-    "name": "@silverstripe/silverstripe-eslint-base",
+    "name": "@silverstripe/eslint-config-base",
     "version": "1.0.0",
     "description": "Base eslint configuration",
     "main": "index.js",
@@ -7,6 +7,11 @@
     "license": "MIT",
     "scripts": {
         "test": "tape tests/*.js"
+    },
+    "peerDependencies": {
+        "eslint": ">=6",
+        "eslint-config-airbnb-base": ">=14",
+        "eslint-plugin-import": ">=2"
     },
     "dependencies": {
         "eslint": "^6.7.2",

@@ -1,9 +1,14 @@
 {
-    "name": "@silverstripe/silverstripe-eslint-vue",
+    "name": "@silverstripe/eslint-config-vue",
     "version": "1.0.0",
     "main": "index.js",
     "author": "Hans Jakob Emmel",
     "license": "MIT",
+    "peerDependencies": {
+        "eslint": ">=6",
+        "eslint-plugin-import": ">=2",
+        "eslint-plugin-vue": ">=6"
+    },
     "dependencies": {
         "eslint": "^6.7.2",
         "eslint-plugin-import": "^2.19.1",
