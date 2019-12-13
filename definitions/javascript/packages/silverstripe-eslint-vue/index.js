@@ -1,6 +1,5 @@
 module.exports = {
     "extends": [
-        "silverstripe-eslint-base",
         "plugin:vue/essential"
     ],
     "overrides": [

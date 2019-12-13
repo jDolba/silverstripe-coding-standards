@@ -1,5 +1,5 @@
 {
-    "name": "silverstripe-eslint-base",
+    "name": "@silverstripe/silverstripe-eslint-base",
     "version": "1.0.0",
     "description": "Base eslint configuration",
     "main": "index.js",
@@ -15,8 +15,5 @@
     },
     "devDependencies": {
         "tape": "^4.11.0"
-    },
-    "engines": {
-        "node": ">= 12"
     }
 }

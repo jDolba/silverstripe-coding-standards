@@ -8,9 +8,8 @@ test('Should have basic properties', function (t) {
 });
 
 test('Should extend silverstripe base and vue config', function (t) {
-    t.equal(config.extends.length, 2, "Extending 2 configurations");
-    t.equal(config.extends[0], "silverstripe-eslint-base","Using silverstripe base");
-    t.equal(config.extends[1], "plugin:vue/essential", "Using vue essential");
+    t.equal(config.extends.length, 1, "Extending 1 configuration");
+    t.equal(config.extends[0], "plugin:vue/essential", "Using vue essential");
     t.end()
 });
 
