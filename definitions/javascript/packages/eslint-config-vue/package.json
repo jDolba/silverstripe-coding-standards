@@ -4,6 +4,9 @@
     "main": "index.js",
     "author": "Hans Jakob Emmel",
     "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    },
     "peerDependencies": {
         "eslint": "^6.0.0",
         "eslint-plugin-import": "^2.0.0"
@@ -18,5 +21,6 @@
     },
     "devDependencies": {
         "tape": "^4.11.0"
-    }
+    },
+    "gitHead": "3597cd847d1d8549e07b06f525877389ab15a063"
 }
