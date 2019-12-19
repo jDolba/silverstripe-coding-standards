@@ -1,6 +1,6 @@
 {
     "name": "@silverstripeltd/eslint-config-base",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Base eslint configuration",
     "main": "index.js",
     "author": "Hans Jakob Emmel",
