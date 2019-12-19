@@ -1,5 +1,5 @@
 {
-    "name": "@silverstripe/eslint-config-vue",
+    "name": "@silverstripeltd/eslint-config-vue",
     "version": "1.0.3",
     "main": "index.js",
     "author": "Hans Jakob Emmel",
@@ -12,7 +12,7 @@
         "eslint-plugin-import": "^2.0.0"
     },
     "dependencies": {
-        "@silverstripe/eslint-config-base": "1.0.3",
+        "@silverstripeltd/eslint-config-base": "1.0.3",
         "eslint-plugin-vue": "^6.0.1"
     },
     "scripts": {
@@ -21,6 +21,5 @@
     },
     "devDependencies": {
         "tape": "^4.11.0"
-    },
-    "gitHead": "3597cd847d1d8549e07b06f525877389ab15a063"
+    }
 }

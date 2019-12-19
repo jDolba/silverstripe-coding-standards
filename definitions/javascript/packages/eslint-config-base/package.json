@@ -1,5 +1,5 @@
 {
-    "name": "@silverstripe/eslint-config-base",
+    "name": "@silverstripeltd/eslint-config-base",
     "version": "1.0.3",
     "description": "Base eslint configuration",
     "main": "index.js",
@@ -22,6 +22,5 @@
     "peerDependencies": {
         "eslint": "^6.0.0",
         "eslint-plugin-import": "^2.0.0"
-    },
-    "gitHead": "3597cd847d1d8549e07b06f525877389ab15a063"
+    }
 }
