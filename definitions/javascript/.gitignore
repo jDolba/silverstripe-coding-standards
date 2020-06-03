@@ -1,0 +1,7 @@
+*.log
+.idea
+.DS_Store
+.jest-*
+lib
+node_modules
+*/**/yarn.lock
